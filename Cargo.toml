@@ -1,0 +1,9 @@
+[package]
+name = "experiment"
+version = "0.1.0"
+edition = "2024"
+authors = ["Adaickalavan <adaickalavan@gmail.com>"]
+
+[dependencies]
+clap = "4.5.41"
+rand = "0.8.5"
