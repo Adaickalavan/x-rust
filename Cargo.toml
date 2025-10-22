@@ -5,5 +5,9 @@ edition = "2024"
 authors = ["Adaickalavan <adaickalavan@gmail.com>"]
 
 [dependencies]
-clap = "4.5.41"
-rand = "0.8.5"
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
+image = "0.24"
+viuer = "0.4"
+mnist = "0.6.0"
+ndarray = "0.16.1"

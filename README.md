@@ -29,3 +29,5 @@ Code rules:
 1. Avoid writing complex code. Write simple straightforward code.
 1. No multilevel inheritance. Maximum inheritance of 1 level only.
 1. No nested modules.
+1. Do not use `impl Trait`
+1. Do not leak memory on purpose via `.leak()` call
